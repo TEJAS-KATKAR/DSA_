@@ -12,3 +12,7 @@ function sum(num){
 }
 let num = 1234
 console.log("The sum of "+ num + " is " + sum(num));
+
+
+
+

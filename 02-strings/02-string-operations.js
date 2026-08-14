@@ -106,3 +106,6 @@ function up(word){
 }
 
 console.log(up("I Love Java"));
+
+
+
