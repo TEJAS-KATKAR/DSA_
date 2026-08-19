@@ -1,4 +1,3 @@
-/*
 //print each number
 const nums= [5,10,15,20];
 
@@ -22,8 +21,10 @@ const numbs =[2,4,6,8];
 let numbers = numbs.forEach((num) => {
     return console.log(num * 5)
 });
-*/
+
 console.log("      ");
+
+
 //print the index with the value
 
 const array = ["Red" , "Blue" , "Green"];

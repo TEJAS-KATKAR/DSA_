@@ -95,6 +95,52 @@ function palindrome(word){
     return word === reversing;
 }
 
-
 console.log(palindrome("madam"));
 
+
+//find second largest number in array
+
+function seclargest(array){
+
+    let largest =-Infinity;
+    let second = -Infinity;
+
+    for(i = 0; i < array.length; i++){
+        
+        
+
+        if(array[i] > largest ){
+            second = largest
+            largest = array[i];
+            
+        }else if(array[i] > second){
+            second = array[i] 
+        }
+        
+
+    }
+    console.log(largest , second)
+}
+
+seclargest([10,5,8,20,15,3,55,4,2,-5,-8]);
+
+
+//find second smallest number
+
+function secsmallest(array){
+    let smallest = Infinity ;
+    let second = Infinity;
+
+    for(i= 0; i< array.length; i++){
+        if(array[i]<smallest){
+            second = smallest;
+            smallest = array[i];
+        }
+        else if(array[i] > second){
+            second = array[i];
+        }
+    }
+    console.log(smallest, second)
+}
+
+secsmallest([8,3,10,2,5,1,-5,-7])

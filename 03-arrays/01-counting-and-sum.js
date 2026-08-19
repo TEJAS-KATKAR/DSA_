@@ -5,7 +5,7 @@ function even(num){
     let total = 0;
 
     for(let i = 0 ; i < num.length ; i++){
-        if(num[i] % 2 == 0){
+        if(num[i] % 2 === 0){
            total++
         }
     }
